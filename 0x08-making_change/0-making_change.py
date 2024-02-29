@@ -17,11 +17,6 @@ def make_change(coins, total):
         return 0
     if coins == [] or coins is None:
         return -1
-    try:
-        n = coins.index(total)
-        return 1
-    except ValueError:
-        pass
 
     coins.sort(reverse=True)
     coin_count = 0
