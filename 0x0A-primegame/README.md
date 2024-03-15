@@ -1,0 +1,1 @@
+A module that determines the winner of a game by checking who has gone through the most primes numbers in a given range of numbers
